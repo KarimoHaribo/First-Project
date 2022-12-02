@@ -1,6 +1,5 @@
-character_name= "John"
-character_age= "35"
-print("There once was a man named " + character_name + ", ")
-print("he was " + character_age + " years old. ")
-print("He really killed the name " + character_name + ", ")
-print("but didn't like being " + character_age + ".")
+num1 = input("Enter a number: ")
+num2 = input("Enter another number: ")
+result = int(num1) + int(num2)
+
+print(result)
