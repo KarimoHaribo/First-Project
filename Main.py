@@ -1,5 +1,4 @@
-num1 = input("Enter a number: ")
-num2 = input("Enter another number: ")
-result = int(num1) + int(num2)
-
-print(result)
+pi = 3.14
+r = input("Enter a value of r: ")
+area = int(pi) * pow(float(r), 2)
+print("The area of the circle: " + str(area))
